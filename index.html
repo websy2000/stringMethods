@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>String Methods</title>
+    </head>
+    <body>
+        <script>
+            //string charAt...
+            let str1 = "specifications colours and Content";
+            let addStr = str1.charAt(2);
+            console.log(addStr);
+            //string concat..
+            let str2 = "Hello Java";
+            let str3 = "Learn  JavaScript";
+            let addStr1 = str2.concat(" ",str3);
+            console.log(addStr1);
+            // string endsWith..
+            let str4 = "java is to javascript";
+            let addStr4 = str4.endsWith("script");
+            console.log(addStr4);
+            //string includes...
+            let str5 = "Javascript was an programming language";
+            let addStr5 = str5.includes("an");
+            console.log(addStr5);
+            //string indexOf...
+            let str6 = "javascript is the worlds most misunderstanding programing language in javascript";
+            let addStr6 = str6.indexOf("worlds");
+            console.log(addStr6);
+            //string lastIndexOf...
+            let str7 = "the lastindexof returns the last occurence of a string";
+            let addStr7 = str7.lastIndexOf("of");
+            console.log(addStr7);
+            //string lenght...
+            let str8 = "javascript is an programming language";
+            let addStr8 = str8.length;
+            console.log(addStr8);
+            //string localCompare...
+            let str9 = "python".localeCompare("javascript");
+            console.log(str9);
+            //string padEnd...
+            let str10 = "java";
+            let addStr10 = str10.padEnd(10,"script")
+            console.log(addStr10);
+            //string padStart...
+            let str11 = "lenovo";
+            let addStr11 = str11.padStart(20, " * ");
+            console.log(addStr11);
+            //string Repeat...
+            let str12 = "Hello JavaScript ";
+            let addStr12 = str12.repeat(10);
+            console.log(addStr12);
+            //string Replace...
+            let str13 = "java is awesome. java is fun";
+            let addStr13 =  str13.replace(/java/gi,"JavaScript");
+            console.log(addStr13);
+            //string ReplaceAll...
+            let str14 = "javascript is  an programing . javascript is an fun language";
+            let addStr14 = str14.replaceAll("java","JAVA");
+            console.log(addStr14);
+            //string slice...
+            let str15 = "JavaScript is a very absurd programming language.";
+            let addStr15 = str15.slice(0,20);
+            console.log(addStr15);
+            //string split...
+            let str16 = "javaScript.is.fun";
+            let addStr16 = str16.split(".");
+            console.log(addStr16);
+            //string startsWith...
+            let str17 = "javaScript is an Machine Language";
+            let addStr17 = str17.startsWith("java");
+            console.log(addStr17);
+            //string subString...
+            let str18 = "The substring method returns a specified part of the string between start and end indexes.";
+            let addStr18 = str18.substring(0,20);
+            console.log(addStr18);
+            //string lowerCase...
+            let str19 = "HELLO WORLD!";
+            let addStr19 = str19.toLowerCase();
+            console.log(addStr19);
+            //string UpperCase...
+            let str20 = "javascript is an scripted language  ";
+            let addStr20 = str20.toUpperCase();
+            console.log(addStr20);
+            //string Trim...
+            let str21 = " hello Javascript  ";
+            let addStr21 = str21.trim();
+            console.log(addStr21);
+        </script>
+    </body>
+</html>
